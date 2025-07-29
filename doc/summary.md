@@ -7,10 +7,8 @@
 - 与 Sequelize ORM 集成，支持数据库持久化
 - 内置权限验证机制
 
-### 安装方法
-```bash
-npm i --save @kne/fastify-setting
-```markdown
+### 使用方法
+```javascript
 const fastify = require('fastify')();
 
 // 注册插件
@@ -27,3 +25,4 @@ fastify.listen({ port: 3000 }, (err) => {
   if (err) throw err;
   console.log('Server running on port 3000');
 });
+```
