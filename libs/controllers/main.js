@@ -19,7 +19,7 @@ module.exports = fp(async (fastify, options) => {
       }
     },
     async request => {
-      return services.setting.saveOrCreate(request.body);
+      return services.saveOrCreate(request.body);
     }
   );
 
@@ -31,7 +31,7 @@ module.exports = fp(async (fastify, options) => {
       }
     },
     async () => {
-      return services.setting.detail();
+      return services.detail();
     }
   );
 });

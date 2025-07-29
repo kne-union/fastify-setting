@@ -1,6 +1,6 @@
 {
   "name": "@kne/fastify-setting",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0",
   "description": "用于管理系统设置",
   "main": "index.js",
   "scripts": {
